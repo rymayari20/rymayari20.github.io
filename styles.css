@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.cv {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+#contact {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px; /* Taille des icônes */
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007bff; /* Change la couleur au survol */
+}
+.social-icon {
+    width: 40px; /* Largeur de l'icône */
+    height: 40px; /* Hauteur de l'icône */
+    margin: 0 10px; /* Espace entre les icônes */
+    transition: transform 0.3s; /* Effet de transition */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Agrandit l'icône au survol */
+}
